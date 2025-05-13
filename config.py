@@ -8,31 +8,30 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "11550139"))
-API_HASH = getenv("API_HASH", "75080c7b5c6503ad1309a19e055f1524")
+API_ID = int(getenv("API_ID", "23240409"))
+API_HASH = getenv("API_HASH", "a5f5bc36ff9e1d6cd13e44b5cdd6f9fd")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7680697190:AAGk1LWo6tlwOopZ10JOLwwHU4Zd_y6IWNQ")
+BOT_TOKEN = getenv("BOT_TOKEN", "7331063045:AAHIJS28XO847xVyn8Vuzpikqyg50CoxplA")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "radharani_musicbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "AASHRI_MUSICBOT")
 
 # Get Your repo
-REPO_LINK = getenv("REPO_LINK", "https://t.me/radharani_musicbot")
+REPO_LINK = getenv("REPO_LINK", "https://t.me/AASHRI_MUSICBOT")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "Radharani Music Bot")
+BOT_NAME = getenv("BOT_NAME", "AASHRI")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://rekhasharma13061990:Ff1apnsaF9MV89G6@cluster0.t86veax.mongodb.net/zefmusic?retryWrites=true&w=majority"
-
+MONGO_DB_URI = "mongodb+srv://<Shukla123>:<Shukla123>@cluster0.6cxohnn.mongodb.net/"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002605198416"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002597565934"))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7694579428"))
+OWNER_ID = int(getenv("OWNER_ID", "8089475380"))
 
 # Sudo users
 SUDO_USERS = list(map(int, os.getenv("SUDO_USERS", "7672710416").split()))
